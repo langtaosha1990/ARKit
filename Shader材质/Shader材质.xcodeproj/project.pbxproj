@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3263A6129E15128005FEBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3263A6029E15128005FEBFE /* AppDelegate.swift */; };
+		F3263A6329E15128005FEBFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3263A6229E15128005FEBFE /* SceneDelegate.swift */; };
+		F3263A6529E15128005FEBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3263A6429E15128005FEBFE /* ViewController.swift */; };
+		F3263A6829E15128005FEBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3263A6629E15128005FEBFE /* Main.storyboard */; };
+		F3263A6A29E15129005FEBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3263A6929E15129005FEBFE /* Assets.xcassets */; };
+		F3263A6D29E15129005FEBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3263A6B29E15129005FEBFE /* LaunchScreen.storyboard */; };
+		F3263A7729E24E7D005FEBFE /* texture_arguments.fragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A7629E24E7D005FEBFE /* texture_arguments.fragment.shader */; };
+		F3263A7B29E262FB005FEBFE /* rainbowSwirlFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A7829E262FB005FEBFE /* rainbowSwirlFragment.shader */; };
+		F3263A7C29E262FB005FEBFE /* mapLighting.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A7929E262FB005FEBFE /* mapLighting.shader */; };
+		F3263A7D29E262FB005FEBFE /* mapGeometry.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A7A29E262FB005FEBFE /* mapGeometry.shader */; };
+		F3263A8C29E2B68C005FEBFE /* warpLineFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A8B29E2B68C005FEBFE /* warpLineFragment.shader */; };
+		F3263A8E29E2BAC7005FEBFE /* morphGridFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A8D29E2BAC7005FEBFE /* morphGridFragment.shader */; };
+		F3263A9029E2BDE5005FEBFE /* waterColorFragmet.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A8F29E2BDE5005FEBFE /* waterColorFragmet.shader */; };
+		F3263A9229E2C078005FEBFE /* polarCoordinatesFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A9129E2C078005FEBFE /* polarCoordinatesFragment.shader */; };
+		F3263A9429E2C694005FEBFE /* textureFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A9329E2C694005FEBFE /* textureFragment.shader */; };
+		F3263A9629E38392005FEBFE /* scanImageFragment.shader in Resources */ = {isa = PBXBuildFile; fileRef = F3263A9529E38392005FEBFE /* scanImageFragment.shader */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3263A5D29E15128005FEBFE /* Shader材质.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shader材质.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3263A6029E15128005FEBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3263A6229E15128005FEBFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3263A6429E15128005FEBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3263A6729E15128005FEBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3263A6929E15129005FEBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3263A6C29E15129005FEBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3263A6E29E15129005FEBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3263A7629E24E7D005FEBFE /* texture_arguments.fragment.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture_arguments.fragment.shader; sourceTree = "<group>"; };
+		F3263A7829E262FB005FEBFE /* rainbowSwirlFragment.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rainbowSwirlFragment.shader; sourceTree = "<group>"; };
+		F3263A7929E262FB005FEBFE /* mapLighting.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapLighting.shader; sourceTree = "<group>"; };
+		F3263A7A29E262FB005FEBFE /* mapGeometry.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mapGeometry.shader; sourceTree = "<group>"; };
+		F3263A8B29E2B68C005FEBFE /* warpLineFragment.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = warpLineFragment.shader; sourceTree = "<group>"; };
+		F3263A8D29E2BAC7005FEBFE /* morphGridFragment.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = morphGridFragment.shader; sourceTree = "<group>"; };
+		F3263A8F29E2BDE5005FEBFE /* waterColorFragmet.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = waterColorFragmet.shader; sourceTree = "<group>"; };
+		F3263A9129E2C078005FEBFE /* polarCoordinatesFragment.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = polarCoordinatesFragment.shader; sourceTree = "<group>"; };
+		F3263A9329E2C694005FEBFE /* textureFragment.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = textureFragment.shader; sourceTree = "<group>"; };
+		F3263A9529E38392005FEBFE /* scanImageFragment.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = scanImageFragment.shader; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3263A5A29E15128005FEBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3263A5429E15128005FEBFE = {
+			isa = PBXGroup;
+			children = (
+				F3263A5F29E15128005FEBFE /* Shader材质 */,
+				F3263A5E29E15128005FEBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3263A5E29E15128005FEBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3263A5D29E15128005FEBFE /* Shader材质.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3263A5F29E15128005FEBFE /* Shader材质 */ = {
+			isa = PBXGroup;
+			children = (
+				F3263A6029E15128005FEBFE /* AppDelegate.swift */,
+				F3263A6229E15128005FEBFE /* SceneDelegate.swift */,
+				F3263A6429E15128005FEBFE /* ViewController.swift */,
+				F3263A8A29E2B5F3005FEBFE /* fragment */,
+				F3263A7A29E262FB005FEBFE /* mapGeometry.shader */,
+				F3263A7929E262FB005FEBFE /* mapLighting.shader */,
+				F3263A7629E24E7D005FEBFE /* texture_arguments.fragment.shader */,
+				F3263A6629E15128005FEBFE /* Main.storyboard */,
+				F3263A6929E15129005FEBFE /* Assets.xcassets */,
+				F3263A6B29E15129005FEBFE /* LaunchScreen.storyboard */,
+				F3263A6E29E15129005FEBFE /* Info.plist */,
+			);
+			path = "Shader材质";
+			sourceTree = "<group>";
+		};
+		F3263A8A29E2B5F3005FEBFE /* fragment */ = {
+			isa = PBXGroup;
+			children = (
+				F3263A7829E262FB005FEBFE /* rainbowSwirlFragment.shader */,
+				F3263A8B29E2B68C005FEBFE /* warpLineFragment.shader */,
+				F3263A8D29E2BAC7005FEBFE /* morphGridFragment.shader */,
+				F3263A8F29E2BDE5005FEBFE /* waterColorFragmet.shader */,
+				F3263A9129E2C078005FEBFE /* polarCoordinatesFragment.shader */,
+				F3263A9329E2C694005FEBFE /* textureFragment.shader */,
+				F3263A9529E38392005FEBFE /* scanImageFragment.shader */,
+			);
+			path = fragment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3263A5C29E15128005FEBFE /* Shader材质 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3263A7129E15129005FEBFE /* Build configuration list for PBXNativeTarget "Shader材质" */;
+			buildPhases = (
+				F3263A5929E15128005FEBFE /* Sources */,
+				F3263A5A29E15128005FEBFE /* Frameworks */,
+				F3263A5B29E15128005FEBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shader材质";
+			productName = "Shader材质";
+			productReference = F3263A5D29E15128005FEBFE /* Shader材质.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3263A5529E15128005FEBFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F3263A5C29E15128005FEBFE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = F3263A5829E15128005FEBFE /* Build configuration list for PBXProject "Shader材质" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3263A5429E15128005FEBFE;
+			productRefGroup = F3263A5E29E15128005FEBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3263A5C29E15128005FEBFE /* Shader材质 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3263A5B29E15128005FEBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3263A6D29E15129005FEBFE /* LaunchScreen.storyboard in Resources */,
+				F3263A9429E2C694005FEBFE /* textureFragment.shader in Resources */,
+				F3263A9229E2C078005FEBFE /* polarCoordinatesFragment.shader in Resources */,
+				F3263A6A29E15129005FEBFE /* Assets.xcassets in Resources */,
+				F3263A7729E24E7D005FEBFE /* texture_arguments.fragment.shader in Resources */,
+				F3263A8E29E2BAC7005FEBFE /* morphGridFragment.shader in Resources */,
+				F3263A9629E38392005FEBFE /* scanImageFragment.shader in Resources */,
+				F3263A7D29E262FB005FEBFE /* mapGeometry.shader in Resources */,
+				F3263A6829E15128005FEBFE /* Main.storyboard in Resources */,
+				F3263A7B29E262FB005FEBFE /* rainbowSwirlFragment.shader in Resources */,
+				F3263A9029E2BDE5005FEBFE /* waterColorFragmet.shader in Resources */,
+				F3263A8C29E2B68C005FEBFE /* warpLineFragment.shader in Resources */,
+				F3263A7C29E262FB005FEBFE /* mapLighting.shader in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3263A5929E15128005FEBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3263A6529E15128005FEBFE /* ViewController.swift in Sources */,
+				F3263A6129E15128005FEBFE /* AppDelegate.swift in Sources */,
+				F3263A6329E15128005FEBFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3263A6629E15128005FEBFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3263A6729E15128005FEBFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3263A6B29E15129005FEBFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3263A6C29E15129005FEBFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3263A6F29E15129005FEBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3263A7029E15129005FEBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3263A7229E15129005FEBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shader材质/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3263A7329E15129005FEBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shader材质/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3263A5829E15128005FEBFE /* Build configuration list for PBXProject "Shader材质" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3263A6F29E15129005FEBFE /* Debug */,
+				F3263A7029E15129005FEBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3263A7129E15129005FEBFE /* Build configuration list for PBXNativeTarget "Shader材质" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3263A7229E15129005FEBFE /* Debug */,
+				F3263A7329E15129005FEBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3263A5529E15128005FEBFE /* Project object */;
+}
