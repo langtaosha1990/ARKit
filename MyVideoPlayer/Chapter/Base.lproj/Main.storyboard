@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chapter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7f-42-aGD">
+                                <rect key="frame" x="0.0" y="68" width="414" height="723"/>
+                            </arView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wD-55-Pl2">
+                                <rect key="frame" x="20" y="811" width="111.5" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="wzb-MC-DKD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="播放/暂停"/>
+                                <connections>
+                                    <action selector="playBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTt-Nr-P23"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iez-FL-XSb">
+                                <rect key="frame" x="151.5" y="809.5" width="111" height="34.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="重播"/>
+                                <connections>
+                                    <action selector="replayBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C4B-lI-tYU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZU-Om-0We">
+                                <rect key="frame" x="282.5" y="811" width="111.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="录制/停止"/>
+                                <connections>
+                                    <action selector="transcribeBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6Y-xW-HEW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0b-nR-C8I">
+                                <rect key="frame" x="321" y="75" width="94" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="新增显示"/>
+                                <connections>
+                                    <action selector="addScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ih-bA-Qu6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7wD-55-Pl2" secondAttribute="bottom" constant="20" id="4Zn-3L-RwA"/>
+                            <constraint firstItem="iez-FL-XSb" firstAttribute="leading" secondItem="7wD-55-Pl2" secondAttribute="trailing" constant="20" id="6nl-CS-bjD"/>
+                            <constraint firstItem="7wD-55-Pl2" firstAttribute="top" secondItem="z7f-42-aGD" secondAttribute="bottom" constant="20" id="9Vb-1C-jj2"/>
+                            <constraint firstItem="z7f-42-aGD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CpJ-uU-PBJ"/>
+                            <constraint firstItem="7wD-55-Pl2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Fv2-E8-9V7"/>
+                            <constraint firstItem="jZU-Om-0We" firstAttribute="centerY" secondItem="7wD-55-Pl2" secondAttribute="centerY" id="Gfq-XX-MCP"/>
+                            <constraint firstItem="iez-FL-XSb" firstAttribute="centerY" secondItem="7wD-55-Pl2" secondAttribute="centerY" id="KfW-TY-H9l"/>
+                            <constraint firstItem="jZU-Om-0We" firstAttribute="leading" secondItem="iez-FL-XSb" secondAttribute="trailing" constant="20" id="LOj-DI-RmV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jZU-Om-0We" secondAttribute="trailing" constant="20" id="Pme-nq-GAr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jZU-Om-0We" secondAttribute="bottom" constant="20" id="Wjh-kD-6pN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z7f-42-aGD" secondAttribute="trailing" id="fiv-ls-WjF"/>
+                            <constraint firstItem="jZU-Om-0We" firstAttribute="width" secondItem="7wD-55-Pl2" secondAttribute="width" id="hUi-Xn-hPc"/>
+                            <constraint firstItem="iez-FL-XSb" firstAttribute="width" secondItem="7wD-55-Pl2" secondAttribute="width" id="lK1-WR-qVu"/>
+                            <constraint firstItem="z7f-42-aGD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="lz7-Ih-wLv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="z7f-42-aGD" id="3FM-8c-KKr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

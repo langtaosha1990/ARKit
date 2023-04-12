@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F58B4D280F2E50EF7C5451 /* Pods_ARDecorate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230DCA705CEF3FEC111A1D08 /* Pods_ARDecorate.framework */; };
+		F3140E6A29C742C8005F4ECD /* ARView+RayCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3140E6929C742C8005F4ECD /* ARView+RayCast.swift */; };
+		F3140E6C29C7FC53005F4ECD /* CustomEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3140E6B29C7FC53005F4ECD /* CustomEntity.swift */; };
+		F3AD234A289E87E40035A6F5 /* EntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD2349289E87E40035A6F5 /* EntityCell.swift */; };
+		F3AD234F289F3EEE0035A6F5 /* ViewController+CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD234E289F3EEE0035A6F5 /* ViewController+CollectionDataSource.swift */; };
+		F3AD2351289F40470035A6F5 /* ViewController+CollectionDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD2350289F40470035A6F5 /* ViewController+CollectionDrag.swift */; };
+		F3AD2353289F41290035A6F5 /* ViewController+DropDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD2352289F41290035A6F5 /* ViewController+DropDelegate.swift */; };
+		F3AD235728A0A6910035A6F5 /* ARView+CoachingOverlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD235628A0A6910035A6F5 /* ARView+CoachingOverlayer.swift */; };
+		F3AD235B28A0DEDE0035A6F5 /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD235A28A0DEDE0035A6F5 /* Unity.swift */; };
+		F3AD235D28A0EE220035A6F5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD235C28A0EE220035A6F5 /* Models.swift */; };
+		F3AD238D28A0F8A30035A6F5 /* Mountain_King.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238328A0F8A30035A6F5 /* Mountain_King.usdz */; };
+		F3AD238E28A0F8A30035A6F5 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238428A0F8A30035A6F5 /* toy_drummer.usdz */; };
+		F3AD238F28A0F8A30035A6F5 /* dance_girl.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238528A0F8A30035A6F5 /* dance_girl.usdz */; };
+		F3AD239028A0F8A30035A6F5 /* Bee.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238628A0F8A30035A6F5 /* Bee.usdz */; };
+		F3AD239128A0F8A30035A6F5 /* cup.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238728A0F8A30035A6F5 /* cup.usdz */; };
+		F3AD239228A0F8A30035A6F5 /* Peacock-04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238828A0F8A30035A6F5 /* Peacock-04.usdz */; };
+		F3AD239328A0F8A30035A6F5 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238928A0F8A30035A6F5 /* toy_biplane.usdz */; };
+		F3AD239428A0F8A30035A6F5 /* watermelon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238A28A0F8A30035A6F5 /* watermelon.usdz */; };
+		F3AD239528A0F8A30035A6F5 /* Box_Texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238B28A0F8A30035A6F5 /* Box_Texture.jpg */; };
+		F3AD239628A0F8A30035A6F5 /* eagle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3AD238C28A0F8A30035A6F5 /* eagle.usdz */; };
+		F3AD239828A10CB60035A6F5 /* ViewController+QLPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD239728A10CB60035A6F5 /* ViewController+QLPreview.swift */; };
+		F3AD239A28A113BF0035A6F5 /* ViewController+SwapGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD239928A113BF0035A6F5 /* ViewController+SwapGesture.swift */; };
+		F3AD239C28A1FFE80035A6F5 /* ViewController+RPPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD239B28A1FFE80035A6F5 /* ViewController+RPPreview.swift */; };
+		F3AD239E28A205C20035A6F5 /* ARView+ARData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AD239D28A205C20035A6F5 /* ARView+ARData.swift */; };
+		F3EB9780289D1B8E00B357AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB977F289D1B8E00B357AF /* AppDelegate.swift */; };
+		F3EB9782289D1B8E00B357AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB9781289D1B8E00B357AF /* SceneDelegate.swift */; };
+		F3EB9784289D1B8E00B357AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB9783289D1B8E00B357AF /* ViewController.swift */; };
+		F3EB9787289D1B8E00B357AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB9785289D1B8E00B357AF /* Main.storyboard */; };
+		F3EB9789289D1B8F00B357AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EB9788289D1B8F00B357AF /* Assets.xcassets */; };
+		F3EB978C289D1B8F00B357AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB978A289D1B8F00B357AF /* LaunchScreen.storyboard */; };
+		F3EB9796289D1E2100B357AF /* EntityAdjustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB9795289D1E2100B357AF /* EntityAdjustView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230DCA705CEF3FEC111A1D08 /* Pods_ARDecorate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARDecorate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99240992403FC1C1707A9B75 /* Pods-ARDecorate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDecorate.debug.xcconfig"; path = "Target Support Files/Pods-ARDecorate/Pods-ARDecorate.debug.xcconfig"; sourceTree = "<group>"; };
+		D6684A4FF943EF707D1D31DC /* Pods-ARDecorate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDecorate.release.xcconfig"; path = "Target Support Files/Pods-ARDecorate/Pods-ARDecorate.release.xcconfig"; sourceTree = "<group>"; };
+		F3140E6929C742C8005F4ECD /* ARView+RayCast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+RayCast.swift"; sourceTree = "<group>"; };
+		F3140E6B29C7FC53005F4ECD /* CustomEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEntity.swift; sourceTree = "<group>"; };
+		F3AD2349289E87E40035A6F5 /* EntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityCell.swift; sourceTree = "<group>"; };
+		F3AD234E289F3EEE0035A6F5 /* ViewController+CollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionDataSource.swift"; sourceTree = "<group>"; };
+		F3AD2350289F40470035A6F5 /* ViewController+CollectionDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionDrag.swift"; sourceTree = "<group>"; };
+		F3AD2352289F41290035A6F5 /* ViewController+DropDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+DropDelegate.swift"; sourceTree = "<group>"; };
+		F3AD235628A0A6910035A6F5 /* ARView+CoachingOverlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+CoachingOverlayer.swift"; sourceTree = "<group>"; };
+		F3AD235A28A0DEDE0035A6F5 /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
+		F3AD235C28A0EE220035A6F5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F3AD238328A0F8A30035A6F5 /* Mountain_King.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mountain_King.usdz; sourceTree = "<group>"; };
+		F3AD238428A0F8A30035A6F5 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		F3AD238528A0F8A30035A6F5 /* dance_girl.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = dance_girl.usdz; sourceTree = "<group>"; };
+		F3AD238628A0F8A30035A6F5 /* Bee.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bee.usdz; sourceTree = "<group>"; };
+		F3AD238728A0F8A30035A6F5 /* cup.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup.usdz; sourceTree = "<group>"; };
+		F3AD238828A0F8A30035A6F5 /* Peacock-04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Peacock-04.usdz"; sourceTree = "<group>"; };
+		F3AD238928A0F8A30035A6F5 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		F3AD238A28A0F8A30035A6F5 /* watermelon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = watermelon.usdz; sourceTree = "<group>"; };
+		F3AD238B28A0F8A30035A6F5 /* Box_Texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Box_Texture.jpg; sourceTree = "<group>"; };
+		F3AD238C28A0F8A30035A6F5 /* eagle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = eagle.usdz; sourceTree = "<group>"; };
+		F3AD239728A10CB60035A6F5 /* ViewController+QLPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+QLPreview.swift"; sourceTree = "<group>"; };
+		F3AD239928A113BF0035A6F5 /* ViewController+SwapGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SwapGesture.swift"; sourceTree = "<group>"; };
+		F3AD239B28A1FFE80035A6F5 /* ViewController+RPPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+RPPreview.swift"; sourceTree = "<group>"; };
+		F3AD239D28A205C20035A6F5 /* ARView+ARData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARView+ARData.swift"; sourceTree = "<group>"; };
+		F3EB977C289D1B8E00B357AF /* ARDecorate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDecorate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EB977F289D1B8E00B357AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3EB9781289D1B8E00B357AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3EB9783289D1B8E00B357AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3EB9786289D1B8E00B357AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3EB9788289D1B8F00B357AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3EB978B289D1B8F00B357AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3EB978D289D1B8F00B357AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EB9795289D1E2100B357AF /* EntityAdjustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityAdjustView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3EB9779289D1B8E00B357AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F58B4D280F2E50EF7C5451 /* Pods_ARDecorate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410D357B620C10CF497B75AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				230DCA705CEF3FEC111A1D08 /* Pods_ARDecorate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E992133F752255FC223CB42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99240992403FC1C1707A9B75 /* Pods-ARDecorate.debug.xcconfig */,
+				D6684A4FF943EF707D1D31DC /* Pods-ARDecorate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3AD238228A0F8A30035A6F5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD238328A0F8A30035A6F5 /* Mountain_King.usdz */,
+				F3AD238428A0F8A30035A6F5 /* toy_drummer.usdz */,
+				F3AD238528A0F8A30035A6F5 /* dance_girl.usdz */,
+				F3AD238628A0F8A30035A6F5 /* Bee.usdz */,
+				F3AD238728A0F8A30035A6F5 /* cup.usdz */,
+				F3AD238828A0F8A30035A6F5 /* Peacock-04.usdz */,
+				F3AD238928A0F8A30035A6F5 /* toy_biplane.usdz */,
+				F3AD238A28A0F8A30035A6F5 /* watermelon.usdz */,
+				F3AD238B28A0F8A30035A6F5 /* Box_Texture.jpg */,
+				F3AD238C28A0F8A30035A6F5 /* eagle.usdz */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F3EB9773289D1B8E00B357AF = {
+			isa = PBXGroup;
+			children = (
+				F3EB977E289D1B8E00B357AF /* ARDecorate */,
+				F3EB977D289D1B8E00B357AF /* Products */,
+				4E992133F752255FC223CB42 /* Pods */,
+				410D357B620C10CF497B75AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3EB977D289D1B8E00B357AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB977C289D1B8E00B357AF /* ARDecorate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3EB977E289D1B8E00B357AF /* ARDecorate */ = {
+			isa = PBXGroup;
+			children = (
+				F3AD238228A0F8A30035A6F5 /* Resource */,
+				F3EB977F289D1B8E00B357AF /* AppDelegate.swift */,
+				F3EB9781289D1B8E00B357AF /* SceneDelegate.swift */,
+				F3EB9783289D1B8E00B357AF /* ViewController.swift */,
+				F3AD239D28A205C20035A6F5 /* ARView+ARData.swift */,
+				F3140E6929C742C8005F4ECD /* ARView+RayCast.swift */,
+				F3AD239B28A1FFE80035A6F5 /* ViewController+RPPreview.swift */,
+				F3AD235628A0A6910035A6F5 /* ARView+CoachingOverlayer.swift */,
+				F3AD2352289F41290035A6F5 /* ViewController+DropDelegate.swift */,
+				F3AD2350289F40470035A6F5 /* ViewController+CollectionDrag.swift */,
+				F3AD234E289F3EEE0035A6F5 /* ViewController+CollectionDataSource.swift */,
+				F3AD239728A10CB60035A6F5 /* ViewController+QLPreview.swift */,
+				F3AD239928A113BF0035A6F5 /* ViewController+SwapGesture.swift */,
+				F3140E6B29C7FC53005F4ECD /* CustomEntity.swift */,
+				F3AD235A28A0DEDE0035A6F5 /* Unity.swift */,
+				F3AD2349289E87E40035A6F5 /* EntityCell.swift */,
+				F3EB9795289D1E2100B357AF /* EntityAdjustView.swift */,
+				F3AD235C28A0EE220035A6F5 /* Models.swift */,
+				F3EB9785289D1B8E00B357AF /* Main.storyboard */,
+				F3EB9788289D1B8F00B357AF /* Assets.xcassets */,
+				F3EB978A289D1B8F00B357AF /* LaunchScreen.storyboard */,
+				F3EB978D289D1B8F00B357AF /* Info.plist */,
+			);
+			path = ARDecorate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3EB977B289D1B8E00B357AF /* ARDecorate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EB9790289D1B8F00B357AF /* Build configuration list for PBXNativeTarget "ARDecorate" */;
+			buildPhases = (
+				1AB333763023A619A00D0ECA /* [CP] Check Pods Manifest.lock */,
+				F3EB9778289D1B8E00B357AF /* Sources */,
+				F3EB9779289D1B8E00B357AF /* Frameworks */,
+				F3EB977A289D1B8E00B357AF /* Resources */,
+				28BDDB407373755C189D16F1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDecorate;
+			productName = ARDecorate;
+			productReference = F3EB977C289D1B8E00B357AF /* ARDecorate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3EB9774289D1B8E00B357AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F3EB977B289D1B8E00B357AF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F3EB9777289D1B8E00B357AF /* Build configuration list for PBXProject "ARDecorate" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3EB9773289D1B8E00B357AF;
+			productRefGroup = F3EB977D289D1B8E00B357AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3EB977B289D1B8E00B357AF /* ARDecorate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3EB977A289D1B8E00B357AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD238E28A0F8A30035A6F5 /* toy_drummer.usdz in Resources */,
+				F3EB978C289D1B8F00B357AF /* LaunchScreen.storyboard in Resources */,
+				F3AD238D28A0F8A30035A6F5 /* Mountain_King.usdz in Resources */,
+				F3AD239428A0F8A30035A6F5 /* watermelon.usdz in Resources */,
+				F3AD239628A0F8A30035A6F5 /* eagle.usdz in Resources */,
+				F3AD238F28A0F8A30035A6F5 /* dance_girl.usdz in Resources */,
+				F3AD239128A0F8A30035A6F5 /* cup.usdz in Resources */,
+				F3AD239228A0F8A30035A6F5 /* Peacock-04.usdz in Resources */,
+				F3AD239528A0F8A30035A6F5 /* Box_Texture.jpg in Resources */,
+				F3AD239328A0F8A30035A6F5 /* toy_biplane.usdz in Resources */,
+				F3EB9789289D1B8F00B357AF /* Assets.xcassets in Resources */,
+				F3EB9787289D1B8E00B357AF /* Main.storyboard in Resources */,
+				F3AD239028A0F8A30035A6F5 /* Bee.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB333763023A619A00D0ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARDecorate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28BDDB407373755C189D16F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARDecorate/Pods-ARDecorate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARDecorate/Pods-ARDecorate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARDecorate/Pods-ARDecorate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3EB9778289D1B8E00B357AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AD235D28A0EE220035A6F5 /* Models.swift in Sources */,
+				F3EB9784289D1B8E00B357AF /* ViewController.swift in Sources */,
+				F3AD239E28A205C20035A6F5 /* ARView+ARData.swift in Sources */,
+				F3AD234F289F3EEE0035A6F5 /* ViewController+CollectionDataSource.swift in Sources */,
+				F3AD2353289F41290035A6F5 /* ViewController+DropDelegate.swift in Sources */,
+				F3AD235728A0A6910035A6F5 /* ARView+CoachingOverlayer.swift in Sources */,
+				F3AD239C28A1FFE80035A6F5 /* ViewController+RPPreview.swift in Sources */,
+				F3AD2351289F40470035A6F5 /* ViewController+CollectionDrag.swift in Sources */,
+				F3AD239A28A113BF0035A6F5 /* ViewController+SwapGesture.swift in Sources */,
+				F3EB9780289D1B8E00B357AF /* AppDelegate.swift in Sources */,
+				F3EB9796289D1E2100B357AF /* EntityAdjustView.swift in Sources */,
+				F3AD234A289E87E40035A6F5 /* EntityCell.swift in Sources */,
+				F3EB9782289D1B8E00B357AF /* SceneDelegate.swift in Sources */,
+				F3140E6C29C7FC53005F4ECD /* CustomEntity.swift in Sources */,
+				F3AD239828A10CB60035A6F5 /* ViewController+QLPreview.swift in Sources */,
+				F3AD235B28A0DEDE0035A6F5 /* Unity.swift in Sources */,
+				F3140E6A29C742C8005F4ECD /* ARView+RayCast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3EB9785289D1B8E00B357AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EB9786289D1B8E00B357AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3EB978A289D1B8F00B357AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3EB978B289D1B8F00B357AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3EB978E289D1B8F00B357AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3EB978F289D1B8F00B357AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3EB9791289D1B8F00B357AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99240992403FC1C1707A9B75 /* Pods-ARDecorate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARDecorate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3EB9792289D1B8F00B357AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6684A4FF943EF707D1D31DC /* Pods-ARDecorate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARDecorate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3EB9777289D1B8E00B357AF /* Build configuration list for PBXProject "ARDecorate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB978E289D1B8F00B357AF /* Debug */,
+				F3EB978F289D1B8F00B357AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EB9790289D1B8F00B357AF /* Build configuration list for PBXNativeTarget "ARDecorate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EB9791289D1B8F00B357AF /* Debug */,
+				F3EB9792289D1B8F00B357AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3EB9774289D1B8E00B357AF /* Project object */;
+}
