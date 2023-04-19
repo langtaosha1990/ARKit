@@ -83,7 +83,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         let shaderModifiers = [SCNShaderModifierEntryPoint.fragment:mapFragment];
         planMaterial?.shaderModifiers = shaderModifiers
         
-        planMaterial.setValue(SCNMaterialProperty(contents: 2.0), forKey: "audioValue")
     }
 
 }
