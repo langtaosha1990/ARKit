@@ -1,1 +1,9 @@
-Shader材质：在ARKit中通过GLSL渲染平面
+* Shader材质：在ARKit中通过GLSL渲染平面
+* ARDecorate：在ARKit下通过RealityKit拖拽放置模型
+* 头部装饰：头部装饰物品
+* ARKitFaceCatch：人脸捕捉
+* ARSolarSystem：ARKit绘制太阳系
+* AudioVisualization：音频可视化
+* MyVideoPlayer：RealityKit播放视频
+* RealityKit基础demo：RealityKit的平面、模型放置、拖拽、碰撞检测的基础知识
+* WatherApp：简单实现将视频作为纹理的气象预报布局

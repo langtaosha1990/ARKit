@@ -34,12 +34,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         let asset = AVURLAsset(url: url!)
         SampleDataProvider.loadAudioSamples(from: asset) { data in
             let filter = SampleDataFilter.init(data: data!)
-            self.arr = filter.filteredSamples(for: CGSize(width: 1000, height: 20)) as NSArray
+            self.arr = filter.filteredSamples(for: CGSize(width: 1000, height: 1)) as NSArray
         }
         
         let displayLink = CADisplayLink(target: self, selector: #selector(refershFunction))
         displayLink.add(to: .current, forMode: .common)
-        
     }
      
     @objc func refershFunction() {
@@ -47,7 +46,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             return
         }
         let v = arr[Int(floor((self.player.currentTime / self.player.duration) * 1000))]
-        planMaterial.setValue((v as AnyObject).floatValue, forKey: "audioValue")
+        print((v as AnyObject).floatValue as Any)
+        planMaterial.setValue((v as AnyObject).floatValue / 10.0, forKey: "audioValue")
     }
     
     override func viewWillLayoutSubviews() {
@@ -84,6 +84,5 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         planMaterial?.shaderModifiers = shaderModifiers
         
     }
-
 }
 
